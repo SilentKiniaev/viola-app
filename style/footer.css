@@ -1,0 +1,35 @@
+footer {
+	background: black;
+	display: flex;
+	justify-content: space-around;
+	padding: 50px 0;
+}
+footer h4, .footer-nav a {
+	text-transform: uppercase;
+}
+footer h4, footer p, .footer-nav a {
+	color: white;
+}
+.footer-nav a {
+	text-decoration: none;
+	font-size: 12px;
+	letter-spacing: 0.7px;
+}
+.connect-links {
+	display: flex;
+	justify-content: space-between;
+	width: 150px;
+}
+.footer-description > p {
+	width: 250px;
+}
+.footer-nav > nav {
+	display: flex;
+	flex-direction: column;
+}
+.footer-nav > nav > div {
+	margin-bottom: 8px;
+}
+.footer-nav > nav > div > a {
+	letter-spacing: 0.8px;
+}

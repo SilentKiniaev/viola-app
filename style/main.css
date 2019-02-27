@@ -1,0 +1,56 @@
+@import url(header.css);
+@import url(content.css);
+@import url(footer.css);
+
+body {
+	margin: 0;
+	height: 2000px;
+}
+input, button {
+	outline: none;
+}
+.main-button {
+	font-size: 11px;
+	font-weight: bold;
+	width: 135px;
+	height: 43px;
+	border: 0;
+	border-radius: 4px;
+	font-family: corbel;
+	text-transform: uppercase;
+	background: black;
+	color: white;
+}
+.main-button:hover {
+	background: #e55b1b;
+	cursor: pointer;
+}
+.main-title a {
+	color: #e57124;	
+	cursor: pointer;
+	font-size: 35px;
+	font-weight: bold;
+	text-decoration: none;
+}
+.main-title span {
+	color: #e57124;	
+	cursor: pointer;
+}
+.content-description {
+	width: 38%;
+	height: auto;
+	display: flex;
+	flex-direction: column;
+	margin: 10px;
+}
+.content-description h2 {
+	margin: 0;
+	-ms-grid-row-align: center;
+	    align-self: center;
+}
+.content-description > p span, .event-read-more, .event-info h5, footer p > span {
+	color: #e57124;	
+}
+.content-description > .main-button {
+	align-self: flex-end;
+}
